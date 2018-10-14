@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7FC213DF-6D12-4DF6-9659-0A4E2C5C6E3A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CargoFleet</RootNamespace>
+    <AssemblyName>CargoFleet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.4">
+      <HintPath>..\..\..\..\Videos\today stuff\Bunifu_UI_v1.4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\Form_OfficeManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_OfficeManager.Designer.cs">
+      <DependentUpon>Form_OfficeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_TripUsage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_TripUsage.Designer.cs">
+      <DependentUpon>Form_TripUsage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_Services.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_Services.Designer.cs">
+      <DependentUpon>Form_Services.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_TimeScheduleManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_TimeScheduleManager.Designer.cs">
+      <DependentUpon>Form_TimeScheduleManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form_VehicleInfoManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form_VehicleInfoManager.Designer.cs">
+      <DependentUpon>Form_VehicleInfoManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Uc_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Uc_Dashboard.Designer.cs">
+      <DependentUpon>Uc_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UC_TimeSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UC_TimeSchedule.Designer.cs">
+      <DependentUpon>UC_TimeSchedule.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Form_OfficeManager.resx">
+      <DependentUpon>Form_OfficeManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_TripUsage.resx">
+      <DependentUpon>Form_TripUsage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_Services.resx">
+      <DependentUpon>Form_Services.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_TimeScheduleManager.resx">
+      <DependentUpon>Form_TimeScheduleManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form_VehicleInfoManager.resx">
+      <DependentUpon>Form_VehicleInfoManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControls\Uc_Dashboard.resx">
+      <DependentUpon>Uc_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UC_TimeSchedule.resx">
+      <DependentUpon>UC_TimeSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\wp2154287.jpg" />
+    <Content Include="Images\wp2154326-mercedes-truck-wallpapers.jpg" />
+    <None Include="Resources\wp2154326-mercedes-truck-wallpapers.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

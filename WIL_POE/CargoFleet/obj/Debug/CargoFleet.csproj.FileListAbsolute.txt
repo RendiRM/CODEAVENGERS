@@ -1,0 +1,14 @@
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\bin\Debug\CargoFleet.exe.config
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\bin\Debug\CargoFleet.exe
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\bin\Debug\CargoFleet.pdb
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\bin\Debug\Bunifu_UI_v1.4.dll
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.csprojResolveAssemblyReference.cache
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.Form1.resources
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.Properties.Resources.resources
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.csproj.GenerateResource.Cache
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.csproj.CoreCompileInputs.cache
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.exe
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.pdb
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.Form_TripUsage.resources
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.Forms.FormLogin.resources
+C:\Users\Nigel Mthombeni\source\repos\WIL_POE\CargoFleet\obj\Debug\CargoFleet.UserControls.Uc_Dashboard.resources
